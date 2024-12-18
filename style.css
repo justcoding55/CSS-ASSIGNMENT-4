@@ -1,0 +1,428 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+}
+.container{
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-size: cover;
+display: grid;
+gap: 5px;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: 150px 150px 150px 150px;
+height: 100vh;
+width: 900px;
+margin-left: 40px;
+}
+
+.items{
+   padding:12px;
+   margin: 10px 5px;
+   background-color: #180153;
+   box-shadow: 0px 0px 5px white;
+   border-radius: 5px;
+}
+.item1{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    background-image: url(https://www.seatosky.com/wp-content/uploads/2012/07/MS_Windows8_800_thumb800.jpg);
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.item1:hover{
+    background-position: center;
+ background-color: rgb(202, 202, 202);
+}
+.item2{
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 1;
+    background-image: url(https://www.getmyos.com/upload/files/2018/10/20/windows_8_screenshot_2_1_889812268ad57d8c7d97b2df4dcd3c48.png);
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+
+}
+.item2:hover{
+    background-position: center;
+    background-color: rgb(161, 161, 161);
+}
+.item3{
+    background-color: #019AAB;
+    grid-row: 1 / span 1;
+    grid-column: 5 / span 1;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ_2oII-AssPFNOvcLQ6ecJ6ZWQlUbKU3j8w&s);
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+
+}
+.item3:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item4{
+    background-color: transparent;
+    display: grid;
+ gap: 0;
+    grid-template-columns: repeat(2, 70px);
+    justify-content: center;
+    grid-column: 6 / span 1;
+    grid-row: 1 / span 1;
+    position: relative;
+    padding: 0;
+    box-shadow: none;
+}
+.child{
+margin: 0px 0px 0px 5px;
+box-shadow: 0px 0px 5px white;
+cursor: pointer;
+border-radius: 5px;
+}
+.child1{
+    margin-left: -5px;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_640.jpg);
+}
+.child1:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.child2{
+    background-color: #D8552A;
+    margin-right: -5px;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVoqM3FttTaAR-WExetXCLFj66htmLs4KAeQ&s);
+}
+.child2:Hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.child3{
+    background-color: #039F05;
+    margin-left: -5px;
+   margin-top: 5px;
+   background-position: top;
+   background-color: #222;
+   background-blend-mode: hard-light;
+   cursor: pointer;
+   transition: all 1s ease-in-out;
+   background-image: url(https://hips.hearstapps.com/hmg-prod/images/nature-quotes-landscape-1648265648.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*);
+}
+.child3:Hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.child4{
+    background-color: #AC04A6;
+    margin-right: -5px;
+       margin-top: 5px;
+       background-position: top;
+       background-color: #222;
+       background-blend-mode: hard-light;
+       cursor: pointer;
+       transition: all 1s ease-in-out;
+       background-image: url(https://static.vecteezy.com/system/resources/previews/036/226/872/non_2x/ai-generated-nature-landscapes-background-free-photo.jpg);
+}
+.child4:Hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item5{
+    background-color: #01C1F0;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb3rs7XU-_ckKUK8SSIaaCnMUhi3QxxWkkhA&s);
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.item5:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item6{
+    background-color: #DB552F;
+grid-column: 2 / span 1;
+grid-row: 2 / span 1;
+background-image: url(https://thumbs.dreamstime.com/b/nature-background-water-lotus-flower-space-your-text-327414585.jpg);
+background-position: center;
+background-color: #222;
+background-blend-mode: hard-light;
+cursor: pointer;
+transition: all 1s ease-in-out;
+}
+.item6:hover{
+    background-position: bottom;
+    background-color: rgb(199, 199, 199);
+}
+.item7{
+    background-color: #00A400;
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 2;
+    background-image: url(https://assets.hongkiat.com/uploads/nature-photography/autumn-poolside.jpg);
+    background-position: top;
+background-color: #222;
+background-blend-mode: hard-light;
+cursor: pointer;
+transition: all 1s ease-in-out;
+}
+.item7:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item8{
+    background-color: #2776EC;
+    grid-row: 2 / span 1;
+    grid-column: 5 / span 1;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNBLOA0GujGJgQuWXDxiR4wsC6BYXsPr1lHw&s);
+}
+.item8:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item9{
+    grid-row: 2 / span 1;
+    grid-column: 6 / span 1;
+    background-color: #D24726;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://wallpapers.com/images/featured/nature-pictures-movusen45gmo3tv8.jpg);
+}
+.item9:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item10{
+    background-color: #BE204C;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_c-mB3wULLhpdFqSL2w8-2v5I1Nu-bbLoUg&s);
+}
+.item10:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+    background-blend-mode: hard-light;
+}
+.item11{
+    background-color: #0A59C2;
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://biomimicry.org/wp-content/uploads/2024/09/igor-omilaev-qu-upKvvRHg-unsplash-1600x1250.jpg);
+}
+.item11:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item12{
+    background-color: #2E8CEE;
+    grid-row: 3 / span 2;
+    grid-column: 3 / span 2;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://d2rqvd0kuag1qx.cloudfront.net/_1280xAUTO_crop_center-center_none/092717_NatureMuseum-473_2024-03-28-194159_jaul.jpg);
+}
+.item12:hover{
+    background-position: bottom;
+    background-color: rgb(199, 199, 199);
+}
+.item13{
+    background-color: #663EBC;
+    grid-row: 3 / span 1;
+    grid-column: 5 / span 2;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdlk_VarI5oV2Dt62X1bOmh039zzhlH0CoaQ&s);
+}
+.item13:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item14{
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 2;
+    background-color: #D6A502;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://media.istockphoto.com/id/2167946758/photo/yacht-is-sailing-in-the-blue-sea-at-sunset.jpg?s=612x612&w=0&k=20&c=PFkN_OQu5vUhgni_eOd9J9Kywq1hKK9xeOqGhnrrBZ0=);
+}
+.item14:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.item15{
+    grid-row: 4 / span 1;
+    grid-column: 5 / span 2;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://i.ytimg.com/vi/mZbsHzqtAxg/maxresdefault.jpg);
+}
+.item15:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.container2{
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-size: cover;
+display: grid;
+gap: 5px;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 150px 150px 150px 150px;
+justify-content: center;
+width: 300px;
+margin-right: 40px;
+}
+.boxs{
+    padding:55px;
+    margin: 10px 5px;
+    background-color: #180153;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 5px;
+}
+.box1{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://img.lovepik.com/photo/48013/0627.jpg_wh860.jpg)
+}
+.box1:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.box2{
+    grid-column: 1 /span 2;
+    grid-row: 3 / span 1;
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://images.template.net/wp-content/uploads/2017/01/13062753/Beautiful-Nature-Drawing.jpg);
+}
+.box2:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.box3{
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/039/210/128/small_2x/ai-generated-beautiful-nature-mountain-scenery-professionalgraphy-photo.jpg);
+    background-repeat: no-repeat;
+}
+.box3:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+.box4{
+    background-position: top;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    background-image: url(https://img.lovepik.com/photo/48004/5156.jpg_wh860.jpg);
+    background-repeat: no-repeat;
+}
+.box4:hover{
+    background-position: center;
+    background-color: rgb(199, 199, 199);
+}
+
+@media (max-width: 1024px) {
+*{
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+   .container{
+    width: 100vw;
+    height: auto;
+    margin-left: 0px;
+   }
+   .container2{
+    width: 100vw;
+    margin-right: 0px;
+   }
+   .item4{
+    gap: 5px;
+   }
+   .child{
+    margin: 0px 0px 0px 0px;
+   }
+    .child1{
+        margin-left: 0px;
+    }
+    .child2{
+        margin-right: 0px;
+    }
+    .child3{
+        margin-left: 0px;
+    }
+    .child4{
+        margin-right: 0px;
+    }
+
+}
